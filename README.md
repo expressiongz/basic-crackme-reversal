@@ -7,7 +7,8 @@ This is a reversal write up of a extremely easy and basic crackme on crackmes.on
 In the main function of this program we see a call to a `start` function 
 ![image](https://user-images.githubusercontent.com/97218884/182189856-702030be-4135-45f8-94bc-66e3a583f1dd.png)
 
-Upon entering the start function we see this function is asking for user input, in the form of a 10 character string and then saves that input to a `username` string 
+Upon entering the start function we see this function is asking for user input, in the form of a 10 character string and then saves that input to a `username` string
+
 ![image](https://user-images.githubusercontent.com/97218884/182190083-140065d8-dcea-4fd7-b7a7-48eafb04edcf.png)
 
 We then see a call to a `encrypt_username` function.
